@@ -11,4 +11,5 @@ while True:
     try_again = input("\n\nTry again? (Press Enter else n to quit)\n ")
     if try_again.lower() == "n":
         break    
-    input("\npress enter to exit") # This line was commented out as it would cause the program to pause after breaking the loop.
+
+    input("\npress enter to exit") 
